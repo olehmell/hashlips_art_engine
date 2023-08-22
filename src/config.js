@@ -24,15 +24,41 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 1000,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "9_S_BG" },
+      // { name: "9_BG" },
+
+      { name: "8_S_Skin" },
+      // { name: "8_Skin" },
+
+      // { name: "7_Chest" },
+      { name: "7_S_Chest" },
+
+      // { name: "6_Hairs" },
+      // { name: "6_S_Hairs" },
+
+      // { name: "6_Hairs_for_hat" },
+      { name: "6_S_Hairs_for_hat" },
+
+      { name: "5_S_beards" },
+      // { name: "5_beards" },
+
+      { name: "5_S_lips" },
+      // { name: "5_lips" },
+
+      { name: "4_S_Eyes" },
+      // { name: "4_Eyes" },
+
+      // { name: "3_S_Ears" },
+      { name: "3_Ears" },
+
+      { name: "2_S_Arms" },
+      // { name: "2_Arms" },
+
+      // { name: "1_Accessories" },
+      // { name: "1_S_Accessories" },
+      { name: "1_Hats" },
     ],
   },
 ];
@@ -42,8 +68,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 500,
+  height: 500,
   smoothing: false,
 };
 
